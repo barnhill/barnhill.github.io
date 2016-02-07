@@ -1,2 +1,2 @@
-# bbarnhill.github.io
+# barnhill.github.io
 Website

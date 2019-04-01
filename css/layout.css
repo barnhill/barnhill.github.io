@@ -327,12 +327,12 @@ ul#nav li.current a { color: #F06000; }
 }
 
 .csharp {
-  	width: 80%;
+  	width: 65%;
   	-moz-animation: csharp 2s ease;
   	-webkit-animation: csharp 2s ease;
 }
 .android {
-  	width: 65%;
+  	width: 80%;
   	-moz-animation: android 2s ease;
   	-webkit-animation: android 2s ease;
 }
@@ -835,6 +835,25 @@ call-to-action .button {
 #contact button.submit:hover {
 	color: #0D0D0D;
 	background: #fff;
+}
+#contact input.submit {
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color:#fff;
+   background: #0D0D0D;
+	border: none;
+   cursor: pointer;
+   height: auto;
+   display: inline-block;
+	border-radius: 3px;
+   margin-left: 26%;
+}
+#contact input.submit:hover {
+	color: #0D0D0D;
+	background: #fff;
+}
+#contact input.hidden {
+	visibility: hidden;
 }
 #contact span.required {
 	color: #F06000;

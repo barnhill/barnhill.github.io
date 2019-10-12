@@ -326,15 +326,15 @@ ul#nav li.current a { color: #F06000; }
    border-radius: 3px 0 0 3px;
 }
 
+.android {
+  	width: 90%;
+  	-moz-animation: android 2s ease;
+  	-webkit-animation: android 2s ease;
+}
 .csharp {
   	width: 65%;
   	-moz-animation: csharp 2s ease;
   	-webkit-animation: csharp 2s ease;
-}
-.android {
-  	width: 80%;
-  	-moz-animation: android 2s ease;
-  	-webkit-animation: android 2s ease;
 }
 .sql {
   	width: 50%;
@@ -342,11 +342,11 @@ ul#nav li.current a { color: #F06000; }
   	-webkit-animation: sql 2s ease;
 }
 
-@-moz-keyframes csharp {
-  0%   { width: 0px;  }
-  100% { width: 80%;  }
-}
 @-moz-keyframes android {
+  0%   { width: 0px;  }
+  100% { width: 90%;  }
+}
+@-moz-keyframes csharp {
   0%   { width: 0px;  }
   100% { width: 65%;  }
 }
@@ -355,11 +355,11 @@ ul#nav li.current a { color: #F06000; }
   100% { width: 50%;  }
 }
 
-@-webkit-keyframes csharp {
-  0%   { width: 0px;  }
-  100% { width: 80%;  }
-}
 @-webkit-keyframes android {
+  0%   { width: 0px;  }
+  100% { width: 90%;  }
+}
+@-webkit-keyframes csharp {
   0%   { width: 0px;  }
   100% { width: 65%;  }
 }
